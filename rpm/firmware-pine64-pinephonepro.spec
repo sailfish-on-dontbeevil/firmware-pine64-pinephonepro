@@ -1,7 +1,7 @@
 Name:       firmware-pine64-pinephonepro
 Summary:    Firmware blobs for PinePhone Pro
 Version:    1.0
-Release:    0
+Release:    1
 Group:      System/Firmware
 License:    Redistributable
 URL:        https://github.com/sailfish-on-dontbeevil/firmware-pine64-pinephonepro

@@ -8,7 +8,7 @@ URL:        https://github.com/sailfish-on-dontbeevil/firmware-pine64-pinephonep
 Source0:     %{name}-%{version}.tar.bz2
 Source1:    dptx.bin
 Source2:    brcmfmac43455-sdio.bin
-Source3:    BRCM4345C0.hcd
+Source3:    BCM4345C0.hcd
 
 %description
 This package contains firmware for the Pinephone Pro

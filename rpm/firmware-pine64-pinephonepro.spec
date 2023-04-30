@@ -32,10 +32,10 @@ cp %{SOURCE2} $RPM_BUILD_ROOT/lib/firmware/brcm/
 cp %{SOURCE3} $RPM_BUILD_ROOT/lib/firmware/brcm/
 cp %{SOURCE4} $RPM_BUILD_ROOT/lib/firmware/brcm/
 cp %{SOURCE5} $RPM_BUILD_ROOT/lib/firmware/brcm/
-ln -sf %{SOURCE2} $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.bin
-ln -sf %{SOURCE3} $RPM_BUILD_ROOT/lib/firmware/brcm/BCM4345C0.pine64,pinephone-pro.hcd
-ln -sf %{SOURCE4} $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt
-ln -sf %{SOURCE5} $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.clm_blob
+ln -sf brcmfmac43455-sdio.bin $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.bin
+ln -sf BCM4345C0.hcd $RPM_BUILD_ROOT/lib/firmware/brcm/BCM4345C0.pine64,pinephone-pro.hcd
+ln -sf brcmfmac43455-sdio.txt $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt
+ln -sf brcmfmac43455-sdio.clm_blob $RPM_BUILD_ROOT/lib/firmware/brcm/brcmfmac43455-sdio.pine64,pinephone-pro.clm_blob
 
 %files
 /lib/firmware/
